@@ -21,11 +21,11 @@ def is_adult(age):
 age = int(input())
 
 if is_kid(age):
-    print("Drink toddy")
+    print("drink toddy")
 elif is_teen(age):
-    print("Drink coke")
+    print("drink coke")
 elif is_young_adult(age):
-    print("Drink beer")
+    print("drink beer")
 elif is_adult(age):
-    print("Drink whisky")
+    print("drink whisky")
 
